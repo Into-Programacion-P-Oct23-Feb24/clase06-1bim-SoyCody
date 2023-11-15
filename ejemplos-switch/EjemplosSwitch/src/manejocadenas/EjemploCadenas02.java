@@ -22,8 +22,8 @@ public class EjemploCadenas02 {
         System.out.println("Ingrese la ciudad");
         String ciudad = entrada.nextLine(); // Quito
         
-        
         cadenaFinal = String.format("%sCiudad:%s\n",
+        // cadenaFinal es donde se esta almacenando los datos ingresados
                 cadenaFinal, ciudad);
         // System.out.printf("%s\n",cadenaFinal);
         System.out.println("Ingrese la provincia");
