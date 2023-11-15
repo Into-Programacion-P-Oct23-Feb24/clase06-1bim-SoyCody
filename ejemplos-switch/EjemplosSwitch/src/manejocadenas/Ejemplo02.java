@@ -16,6 +16,7 @@ public class Ejemplo02 {
         
         pais = "Ecuador";
         char letra = pais.charAt(0);
+        // el metodo charAt nos ayuda a seleccionar un caracter dependiendo un numero con el cual encerramos en el parentesis
         System.out.printf("%s\n", letra);
         
     }
